@@ -1,0 +1,27 @@
+namespace VoicebotBillingMIS.Data.Models;
+
+public class UsageRecord
+{
+    public string Department { get; set; } = string.Empty;
+
+    public string Campaign { get; set; } = string.Empty;
+
+    public string Vendor { get; set; } = string.Empty;
+
+    // Values are sourced from dbo.sp_vb_cost_analysis_dg and remain nullable when SQL returns NULL.
+
+    public int? UniqueBase { get; set; }
+
+    public int? TotalAttempts { get; set; }
+
+    public int? UniqueConnects { get; set; }
+
+    public int? TotalConnects { get; set; }
+
+    // ── MOU/Cost Fields ──
+    /// <summary>Final MOU in minutes supplied by the stored procedure's Duration column.</summary>
+    public long? Mou { get; set; }
+
+    /// <summary>Billable cost: MOU × vendor rate × 1.18 GST. Null if any component missing.</summary>
+    public decimal? Cost { get; set; }
+}
