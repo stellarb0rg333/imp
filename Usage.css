@@ -1,3 +1,6 @@
+Vendor	Total Attempts	Unique Base	Attempt Intensity	Total Connects	Unique Connects	Connect Intensity	Running Cost (₹ incl. GST)	CAC (₹)	Budget Burn Status
+
+
 /* ── Page shell ────────────────────────────────────────────── */
 .voicebot-page-shell {
     min-height: calc(100vh - 4.5rem);
@@ -62,10 +65,10 @@
     text-decoration: none;
 }
 
-.usage-export-button:hover {
-    color: #fff;
-    background: #1d4ed8;
-}
+    .usage-export-button:hover {
+        color: #fff;
+        background: #1d4ed8;
+    }
 
 .usage-notification-host {
     position: fixed;
@@ -377,11 +380,7 @@
 /* ── Responsive filter layout ─────────────────────────────── */
 @media (max-width: 1450px) {
     .voicebot-filter-grid {
-        grid-template-columns:
-            repeat(3, minmax(110px, 0.6fr))
-            repeat(2, minmax(0, 1.55fr))
-            repeat(3, minmax(80px, 0.8fr))
-            max-content;
+        grid-template-columns: repeat(3, minmax(110px, 0.6fr)) repeat(2, minmax(0, 1.55fr)) repeat(3, minmax(80px, 0.8fr)) max-content;
     }
 
     /*
@@ -587,32 +586,32 @@
     padding-right: 0;
 }
 
-  .voicebot-table-wrap tbody {
-      display: block;
-      max-height: 510px;
-      overflow-y: auto;
-      overflow-x: hidden;
-      scrollbar-color: #9ca3af transparent;
-      scrollbar-width: thin;
-  }
+    .voicebot-table-wrap tbody {
+        display: block;
+        max-height: 510px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        scrollbar-color: #9ca3af transparent;
+        scrollbar-width: thin;
+    }
 
-  .voicebot-table-wrap tbody::-webkit-scrollbar {
-      width: 0.7rem;
-  }
+        .voicebot-table-wrap tbody::-webkit-scrollbar {
+            width: 0.7rem;
+        }
 
-  .voicebot-table-wrap tbody::-webkit-scrollbar-track {
-      background: transparent;
-  }
+        .voicebot-table-wrap tbody::-webkit-scrollbar-track {
+            background: transparent;
+        }
 
-  .voicebot-table-wrap tbody::-webkit-scrollbar-thumb {
-      background: #9ca3af;
-      border: 2px solid transparent;
-      border-radius: 999px;
-  }
+        .voicebot-table-wrap tbody::-webkit-scrollbar-thumb {
+            background: #9ca3af;
+            border: 2px solid transparent;
+            border-radius: 999px;
+        }
 
-  .voicebot-table-wrap tbody::-webkit-scrollbar-thumb:hover {
-      background: #6b7280;
-  }
+            .voicebot-table-wrap tbody::-webkit-scrollbar-thumb:hover {
+                background: #6b7280;
+            }
 
     .voicebot-table-wrap table {
         width: 100%;
@@ -631,9 +630,9 @@
         table-layout: fixed;
     }
 
-    .voicebot-table-wrap thead tr {
-        background: transparent;
-    }
+        .voicebot-table-wrap thead tr {
+            background: transparent;
+        }
 
     .voicebot-table-wrap th {
         position: static;
@@ -658,54 +657,53 @@
             border-right: 1px solid #fff;
         }
 
-            .voicebot-table-wrap th:nth-child(2),
-            .voicebot-table-wrap td:nth-child(2) {
-                padding-left: 0.05rem;
-                padding-right: 0.05rem;
-                width: 25%;
-            }
+        .voicebot-table-wrap th:nth-child(2),
+        .voicebot-table-wrap td:nth-child(2) {
+            padding-left: 0.05rem;
+            padding-right: 0.05rem;
+            width: 25%;
+        }
 
-            .voicebot-table-wrap th:nth-child(10),
-            .voicebot-table-wrap td:nth-child(10) {
-                display: none;
-            }
+        .voicebot-table-wrap th:nth-child(10),
+        .voicebot-table-wrap td:nth-child(10) {
+            display: none;
+        }
 
-            .voicebot-table-wrap th:nth-child(1),
-            .voicebot-table-wrap td:nth-child(1) {
-                width: 10%;
-                vertical-align: top;
-            }
+        .voicebot-table-wrap th:nth-child(1),
+        .voicebot-table-wrap td:nth-child(1) {
+            width: 10%;
+            vertical-align: top;
+        }
 
-            .voicebot-table-wrap th:nth-child(1) {
-                padding-top: 0.42rem;
-                padding-bottom: 0.42rem;
-            }
+        .voicebot-table-wrap th:nth-child(1) {
+            padding-top: 0.42rem;
+            padding-bottom: 0.42rem;
+        }
 
-            .voicebot-table-wrap th:nth-child(3),
-            .voicebot-table-wrap td:nth-child(3) {
-                width: 6%;
-            }
+        .voicebot-table-wrap th:nth-child(3),
+        .voicebot-table-wrap td:nth-child(3) {
+            width: 6%;
+        }
 
-            .voicebot-table-wrap th:nth-child(5),
-            .voicebot-table-wrap td:nth-child(5),
-            .voicebot-table-wrap th:nth-child(6),
-            .voicebot-table-wrap td:nth-child(6),
-            .voicebot-table-wrap th:nth-child(7),
-            .voicebot-table-wrap td:nth-child(7),
-            .voicebot-table-wrap th:nth-child(8),
-            .voicebot-table-wrap td:nth-child(8),
-            .voicebot-table-wrap th:nth-child(9),
-            .voicebot-table-wrap td:nth-child(9),
-            .voicebot-table-wrap th:nth-child(11),
-            .voicebot-table-wrap td:nth-child(11),
-            .voicebot-table-wrap th:nth-child(13),
-            .voicebot-table-wrap td:nth-child(13) {
-                padding-left: 0 !important;
-                padding-right: 0 !important;
-                
-            }
+        .voicebot-table-wrap th:nth-child(5),
+        .voicebot-table-wrap td:nth-child(5),
+        .voicebot-table-wrap th:nth-child(6),
+        .voicebot-table-wrap td:nth-child(6),
+        .voicebot-table-wrap th:nth-child(7),
+        .voicebot-table-wrap td:nth-child(7),
+        .voicebot-table-wrap th:nth-child(8),
+        .voicebot-table-wrap td:nth-child(8),
+        .voicebot-table-wrap th:nth-child(9),
+        .voicebot-table-wrap td:nth-child(9),
+        .voicebot-table-wrap th:nth-child(11),
+        .voicebot-table-wrap td:nth-child(11),
+        .voicebot-table-wrap th:nth-child(13),
+        .voicebot-table-wrap td:nth-child(13) {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
 
-        /*
+    /*
     Extend the last header cell's background rightwards to fully fill the
     wrapper's reserved scrollbar gutter (padding-right above). A plain
     width/margin change on thead does not work reliably here because the
@@ -838,11 +836,11 @@
     gap: 0.3rem;
 }
 
-.usage-grand-summary-header p {
-    margin: 0;
-    color: var(--gray-600);
-    font-size: 0.8rem;
-}
+    .usage-grand-summary-header p {
+        margin: 0;
+        color: var(--gray-600);
+        font-size: 0.8rem;
+    }
 
 /* Total summary grid */
 .usage-grand-summary-grid {
@@ -1010,99 +1008,99 @@ sit on a single row instead of wrapping.
         background: rgba(255, 228, 214, 0.78);
     }
 
-    /* CAC is intentionally compact; both independently rendered table boxes need
+/* CAC is intentionally compact; both independently rendered table boxes need
        the same explicit width because the body scrolls separately from the header. */
-    .voicebot-table-wrap thead th:nth-child(13),
-    .voicebot-table-wrap tbody td:nth-child(13) {
-        width: 5% !important;
-        min-width: 0 !important;
-        padding-left: 0 !important;
-        padding-right: 0 !important;
-        box-sizing: border-box;
-    }
+.voicebot-table-wrap thead th:nth-child(13),
+.voicebot-table-wrap tbody td:nth-child(13) {
+    width: 5% !important;
+    min-width: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    box-sizing: border-box;
+}
 
-    .voicebot-table-wrap tbody tr.budget-exceeded:hover,
-    .voicebot-table-wrap tbody tr.budget-exceeded:hover > td {
-        background: #fecaca !important;
-    }
+.voicebot-table-wrap tbody tr.budget-exceeded:hover,
+.voicebot-table-wrap tbody tr.budget-exceeded:hover > td {
+    background: #fecaca !important;
+}
 
-    .budget-pace {
-        font-size: 0.62rem;
+.budget-pace {
+    font-size: 0.62rem;
     font-weight: 500;
     white-space: nowrap;
 }
 
-    /* Final Usage table contract. The header and scrolling body are separate
+/* Final Usage table contract. The header and scrolling body are separate
        fixed-layout table boxes, so every visible column gets an explicit width. */
-    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table {
-        table-layout: fixed !important;
-    }
+.voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table {
+    table-layout: fixed !important;
+}
 
     .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th,
     .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td {
         box-sizing: border-box !important;
     }
 
-    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(1),
-    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(1) {
-        width: 18% !important;
-    }
+        .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(1),
+        .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(1) {
+            width: 13% !important;
+        }
 
-    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(2),
-    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(2) {
-        width: 12% !important;
-    }
+        .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(2),
+        .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(2) {
+            width: 17% !important;
+        }
 
-    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(3),
-    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(3) {
-        width: 6% !important;
-    }
+        .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(3),
+        .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(3) {
+            width: 6% !important;
+        }
 
-    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(4),
-    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(4) {
-        width: 7% !important;
-    }
+        .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(4),
+        .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(4) {
+            width: 7% !important;
+        }
 
-    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(5),
-    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(5),
-    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(6),
-    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(6),
-    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(7),
-    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(7),
-    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(8),
-    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(8),
-    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(9),
-    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(9) {
-        width: 6% !important;
-    }
+        .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(5),
+        .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(5),
+        .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(6),
+        .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(6),
+        .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(7),
+        .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(7),
+        .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(8),
+        .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(8),
+        .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(9),
+        .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(9) {
+            width: 6% !important;
+        }
 
-    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(10),
-    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(10) {
-        width: 7% !important;
-    }
+        .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(10),
+        .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(10) {
+            width: 7% !important;
+        }
 
-    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(11),
-    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(11) {
-        width: 9% !important;
-    }
+        .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(11),
+        .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(11) {
+            width: 9% !important;
+        }
 
-    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(12),
-    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(12) {
-        width: 5% !important;
-    }
+        .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(12),
+        .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(12) {
+            width: 5% !important;
+        }
 
-    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(13),
-    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(13) {
-        width: 6% !important;
-    }
+        .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(13),
+        .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(13) {
+            width: 6% !important;
+        }
 
-    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(1) {
-        display: table-cell !important;
-        padding-top: 0.55rem !important;
-        padding-bottom: 0.55rem !important;
-        line-height: 1.2 !important;
-        vertical-align: middle !important;
-    }
+        .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(1) {
+            display: table-cell !important;
+            padding-top: 0.55rem !important;
+            padding-bottom: 0.55rem !important;
+            line-height: 1.2 !important;
+            vertical-align: middle !important;
+        }
 
     .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td {
         font-size: 0.72rem !important;
@@ -1110,14 +1108,14 @@ sit on a single row instead of wrapping.
         padding-bottom: 0.64rem !important;
     }
 
-    .voicebot-card > .voicebot-filter-grid {
-        margin-bottom: 0 !important;
-    }
+.voicebot-card > .voicebot-filter-grid {
+    margin-bottom: 0.25 !important;
+}
 
-    .voicebot-card .usage-results-block .usage-grand-summary {
-        margin-top: 0 !important;
-        margin-bottom: 0.2rem !important;
-    }
+.voicebot-card .usage-results-block .usage-grand-summary {
+    margin-top: 0.25 !important;
+    margin-bottom: 0.25rem !important;
+}
 
 /* ── Vendor Rates page ────────────────────────────────────── */
 .vendor-rate-block {
