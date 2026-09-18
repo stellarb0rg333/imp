@@ -1,4 +1,4 @@
-Vendor	Total Attempts	Unique Base	Attempt Intensity	Total Connects	Unique Connects	Connect Intensity	Running Cost (₹ incl. GST)	CAC (₹)	Budget Burn Status
+
 
 
 /* ── Page shell ────────────────────────────────────────────── */
@@ -1116,6 +1116,33 @@ sit on a single row instead of wrapping.
     margin-top: 0.25 !important;
     margin-bottom: 0.25rem !important;
 }
+
+
+/* Center numeric/vendor/status columns in the 13-column Usage table. */
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(3),
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(3),
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(4),
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(4),
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(5),
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(5),
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(6),
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(6),
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(7),
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(7),
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(8),
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(8),
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(9),
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(9),
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(11),
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(11),
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(12),
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(12),
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table th:nth-child(13),
+    .voicebot-card .usage-results-block .voicebot-table-wrap table.usage-results-table td:nth-child(13) {
+        text-align: center !important;
+    }
+
+
 
 /* ── Vendor Rates page ────────────────────────────────────── */
 .vendor-rate-block {
